@@ -38,3 +38,10 @@ console.log(combined);
 sentence = 'Draco is a good wizard.';
 let replacedStr = sentence.replace("good", "bad");
 console.log(replacedStr);
+
+let arr = ['Griffindor', 'Hufflepuff', 'Ravenclaw'];
+arr.push('Slytherin');
+console.log("After push(4, 5):", arr);
+
+let lastElement = arr.pop();
+console.log("After pop():", arr);
