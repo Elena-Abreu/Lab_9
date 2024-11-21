@@ -21,6 +21,13 @@ console.log(`"${spell.trim()}"`);
 
 
 
-// slice() example (extracting part of the string)
+
 quote = "I solemnly swear that I am up to no good.";
 console.log(quote.slice(10, 16));
+
+
+
+let firstNAME = "Ron";
+let lastNAME = " Weasley";
+let combined = firstNAME.concat(lastNAME);
+console.log(combined);
