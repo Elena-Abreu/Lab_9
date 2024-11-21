@@ -59,4 +59,8 @@ let Professors = ['Dumbledore', 'McGonnagall', 'Snape', 'Hagrid']
 let slicedArr = Professors.slice(1, 3);
 console.log("\nArray slice(1, 3):", slicedArr);
 
+let Students = ['Neville', 'Seamus', 'Dean', 'Parvati']
+Students.splice(1, 2, ); 
+console.log( Students);
+
 
