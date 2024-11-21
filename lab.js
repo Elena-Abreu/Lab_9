@@ -8,11 +8,15 @@ let house = "griffindor"
 let greeting = `Welcome, ${firstName} of ${house}!`;
 console.log(greeting); 
 
-// toUpperCase() and toLowerCase() examples
+
 let characterName = "Hermione";
 console.log( characterName.toUpperCase());
 
 console.log( characterName.toLowerCase());
+
+
+// trim() example (removes whitespace from the start and end)
+let spell = " Expelliarmus ";
+console.log(`"${spell.trim()}"`);
 //output:
-//toUpperCase(): HELLO, JAVASCRIPT!
-//toLowerCase(): hello, javascript!
+//trim() example: "Hello, JavaScript!"
