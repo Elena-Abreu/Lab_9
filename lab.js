@@ -49,14 +49,14 @@ console.log("After pop():", HOUSES);
 
 
 let SPELL = ['Alohomora', 'Lumos', 'Nox'];
-// unshift() example (add elements to the beginning)
 SPELL.unshift('Accio');
-// arr.unshift(100,200,300); you can multiple elements
 console.log(SPELL);
-//output:
-//After unshift(100):[100, 1, 2, 3, 4]
-// shift() example (remove the first element, one at a time)
 let firstElement = SPELL.shift();
 console.log(SPELL);
+ 
+
+let Professors = ['Dumbledore', 'McGonnagall', 'Snape', 'Hagrid']
+let slicedArr = Professors.slice(1, 3);
+console.log("\nArray slice(1, 3):", slicedArr);
 
 
