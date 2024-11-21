@@ -15,8 +15,12 @@ console.log( characterName.toUpperCase());
 console.log( characterName.toLowerCase());
 
 
-// trim() example (removes whitespace from the start and end)
+
 let spell = " Expelliarmus ";
 console.log(`"${spell.trim()}"`);
-//output:
-//trim() example: "Hello, JavaScript!"
+
+
+
+// slice() example (extracting part of the string)
+quote = "I solemnly swear that I am up to no good.";
+console.log(quote.slice(10, 16));
