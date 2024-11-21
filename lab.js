@@ -64,3 +64,10 @@ Students.splice(1, 2, );
 console.log( Students);
 
 
+let phrase = ' Mischeif Managed ';
+let combo = phrase.concat('-Harry'); 
+
+console.log(`"${phrase.trim()}"`); 
+console.log(phrase.toLowerCase()); 
+console.log(combo);
+
