@@ -31,3 +31,10 @@ let firstNAME = "Ron";
 let lastNAME = " Weasley";
 let combined = firstNAME.concat(lastNAME);
 console.log(combined);
+ 
+
+
+
+sentence = 'Draco is a good wizard.';
+let replacedStr = sentence.replace("good", "bad");
+console.log(replacedStr);
