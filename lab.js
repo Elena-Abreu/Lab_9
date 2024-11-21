@@ -74,3 +74,8 @@ console.log(combo);
 let wizards = ['Harry', 'Hermione', 'Ron']
 wizards.push('Luna', 'Draco');
 console.log( wizards);
+
+let message = 'Welcome to Hogwarts School of Witchcraft and Wizardry' 
+let slicedArR = message.slice(11, 20); 
+let comb= slicedArR.concat('Castle')
+console.log( comb); 
