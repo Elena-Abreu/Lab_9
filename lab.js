@@ -71,3 +71,6 @@ console.log(`"${phrase.trim()}"`);
 console.log(phrase.toLowerCase()); 
 console.log(combo);
 
+let wizards = ['Harry', 'Hermione', 'Ron']
+wizards.push('Luna', 'Draco');
+console.log( wizards);
